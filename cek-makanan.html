@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Cek Makanan Bergizi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f8ff;
+            margin: 20px;
+        }
+        header, footer {
+            text-align: center;
+            background: #87ceeb;
+            color: white;
+            padding: 12px;
+            border-radius: 10px;
+        }
+        .container {
+            text-align: center;
+            margin-top: 25px;
+        }
+        select {
+            padding: 8px;
+            font-size: 16px;
+            border-radius: 6px;
+        }
+        #hasil {
+            margin-top: 25px;
+        }
+        #hasil img {
+            max-width: 200px;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Cek Makanan Bergizi</h1>
+    <p>Pilih makanan untuk melihat kandungan gizinya</p>
+</header>
+
+<div class="container">
+    <h2>Pilih Makanan</h2>
+
+    <select id="makanan">
+    <option value="">-- Pilih Makanan --</option>
+    <option value="nasi">Nasi</option>
+    <option value="telur">Telur</option>
+    <option value="ayam">Ayam</option>
+    <option value="susu">Susu</option>
+    <option value="apel">Apel</option>
+    <option value="ikan">Ikan</option>
+    <option value="tempe">Tempe</option>
+    <option value="tahu">Tahu</option>
+    <option value="pisang">Pisang</option>
+    <option value="jeruk">Jeruk</option>
+    <option value="wortel">Wortel</option>
+    <option value="bayam">Bayam</option>
+    <option value="kentang">Kentang</option>
+    <option value="roti">Roti</option>
+    <option value="keju">Keju</option>
+    <option value="yogurt">Yogurt</option>
+    <option value="kacang">Kacang</option>
+    <option value="alpukat">Alpukat</option>
+    <option value="jagung">Jagung</option>
+    <option value="pepaya">Pepaya</option>
+</select>
+
+
+    <div id="hasil"></div>
+</div>
+
+<footer>
+    &copy; Media Pembelajaran Makanan Bergizi
+</footer>
+
+<script src="js/cek-makanan.js"></script>
+</body>
+</html>
